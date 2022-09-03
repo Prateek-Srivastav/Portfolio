@@ -11,9 +11,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed  w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed  w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 transition-shadow">
       <div className="font-bold">
-        <img className="h-12 rounded-full" src={me} alt="prateek image" />
+        <img className="h-12 rounded-full" src={me} alt="prateek" />
       </div>
 
       {/* menu */}
@@ -93,6 +93,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/prateek-sri"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -102,6 +103,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/Prateek-Srivastav"
               target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
