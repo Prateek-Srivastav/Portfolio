@@ -4,13 +4,17 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
+import me from "../assets/me.jpg";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed  w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="font-bold">PS</div>
+      <div className="font-bold">
+        <img className="h-12 rounded-full" src={me} alt="prateek image" />
+      </div>
 
       {/* menu */}
       <ul className="hidden md:flex ">
