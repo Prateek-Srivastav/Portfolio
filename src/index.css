@@ -31,6 +31,7 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
+  height: 250px;
 }
 
 .hover-underline-animation {

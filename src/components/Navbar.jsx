@@ -87,7 +87,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="#"
+              href="https://www.linkedin.com/in/prateek-sri"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -95,31 +96,49 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="#"
+              href="https://github.com/Prateek-Srivastav"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#6fc2b0]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#c32c2c]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="#"
+              href="mailto:prateek.srvastav@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 bg-[#565f69]">
-            <a
+            <button
               className="flex justify-between items-center w-full text-gray-300"
-              href="#"
+              id="downloadLink"
+              onClick={onButtonClick}
             >
               Resume <BsFillPersonLinesFill size={30} />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
     </div>
   );
+};
+
+// Function will execute on click of button
+const onButtonClick = () => {
+  // using Java Script method to get PDF file
+  fetch("prateek_resume.pdf").then((response) => {
+    response.blob().then((blob) => {
+      // Creating new object of PDF file
+      const fileURL = window.URL.createObjectURL(blob);
+      // Setting various property values
+      let alink = document.createElement("a");
+      alink.href = fileURL;
+      alink.download = "prateek_resume.pdf";
+      alink.click();
+    });
+  });
 };
 
 export default Navbar;
