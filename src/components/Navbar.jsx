@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed  w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 transition-shadow">
+    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 transition-shadow">
       <div className="font-bold">
         <img className="h-12 rounded-full" src={me} alt="prateek" />
       </div>
