@@ -18,11 +18,12 @@ const About = () => {
           </div>
           <div className="">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-              distinctio, excepturi quidem exercitationem in voluptatibus soluta
-              dolorem iure explicabo eius laboriosam quis consectetur esse
-              tempore optio eveniet, architecto cumque ullam dolor. Esse libero,
-              iusto adipisci itaque animi ex possimus nostrum inventore dolorem
+              Dedicated and efficient full stack developer (MERN) with 1+ years
+              of experience in application layers, presentation layers, and
+              databases. Certified in both F/E and B/E technologies. Have
+              experience in AWS elastic beanstalk and route53. Seeking to
+              further improve React and MongoDB skills as a full stack
+              developer.
             </p>
           </div>
         </div>
