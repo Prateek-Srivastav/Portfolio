@@ -27,14 +27,14 @@ const Work = () => {
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
-              <div className="pt-8 text-center">
+              <div className="pt-8 text-center ">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -52,12 +52,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -75,12 +75,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -98,12 +98,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -121,12 +121,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -144,12 +144,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded px-4 p m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>

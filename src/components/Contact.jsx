@@ -50,7 +50,7 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-[#30314f] p-2 "
+          className="bg-[#30314f] p-2 text-gray-300"
           type="text"
           placeholder="Name"
           name="name"
@@ -58,7 +58,7 @@ const Contact = () => {
           value={name}
         />
         <input
-          className="my-4  bg-[#30314f] p-2 "
+          className="my-4  bg-[#30314f] p-2 text-gray-300"
           type="email"
           placeholder="Email"
           name="email"
@@ -66,7 +66,7 @@ const Contact = () => {
           value={email}
         />
         <textarea
-          className="bg-[#30314f] p-2 "
+          className="bg-[#30314f] p-2 text-gray-300"
           name="message"
           cols="30"
           rows="10"
